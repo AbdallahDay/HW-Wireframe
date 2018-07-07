@@ -4,36 +4,55 @@ body {
 
 .box {
     background: #ccc;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
 }
 
-header {
-
+.box.alt {
+    background: #6c6c6c;
 }
 
-nav {
-
+.container {
+    width: 900px;
+    padding: 10px;
 }
 
-section {
-
+.header {
 }
 
-article {
-
+.nav {
 }
 
-h1 {
-
+.main-content {
+    width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
-p {
-
+.section {
+    width: 495px;
+    float: left;
+    padding: 20px 0 0 0;
 }
 
-aside {
-
+.article {
+    padding: 20px 0 10px 0;
 }
 
-footer {
+.headings {
+    padding: 10px;
+}
 
+.p {
+    padding: 10px;
+}
+
+.aside {
+    overflow: hidden;
+}
+
+.footer {
+    clear: both;
 }
